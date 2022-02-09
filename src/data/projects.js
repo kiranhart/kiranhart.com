@@ -11,6 +11,7 @@ import {
     Skulls,
     Vouchers,
     CosmicVaults,
+    CovidTracker,
 } from './images';
 
 const projects = [
@@ -28,6 +29,23 @@ const projects = [
             'Redux'
         ],
         image: PortfolioImage
+    },
+    {
+        name: 'Covid Tracker',
+        description: 'A Covid-19 tracker that displays worldwide data as well indivudal country data.',
+        livePreview: 'https://kiran-covid-tracker.surge.sh/',
+        github: 'https://github.com/kiranhart/covid-tracker',
+        primaryLanguage: 'JavaScript',
+        type: 'Website',
+        builtWith: [
+            'React',
+            'React Router',
+            'Redux',
+            'Redux Saga & Toolkit',
+            'Styled Components',
+            'disease.sh',
+        ],
+        image: CovidTracker
     },
     {
         name: 'Todo List',

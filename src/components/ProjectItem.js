@@ -54,6 +54,7 @@ const ProjectItemWrapper = styled.div`
         width: 100%;
         transition: all 0.3s ease-in-out;
         flex: 1;
+        object-fit: cover;
 
         &:hover {
             opacity: 0.5;

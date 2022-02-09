@@ -13,7 +13,6 @@ const Home = () => {
             <a target="_blank" rel="noreferrer" href="https://github.com/kiranhart">Github</a>
             <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/kiranhart/">LinkedIn</a>
             <a target="_blank" rel="noreferrer" href="https://www.spigotmc.org/resources/authors/kiranhart.99189/">Spigot</a>
-            <a target="_blank" rel="noreferrer" href="https://www.spigotmc.org/resources/authors/kiranhart.99189/">Resume</a>
         </div>
     </Container>
     ;
