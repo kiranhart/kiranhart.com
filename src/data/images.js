@@ -5,6 +5,7 @@ import AnilistAccountCreation from '../assets/projects/anilist-account-creation.
 import ReatOrderCart from '../assets/projects/react-order-cart.png';
 import ReactTodo from '../assets/projects/react-todo.png';
 import CovidTracker from '../assets/projects/covidtracker.png';
+import Flickr from '../assets/projects/flickr.png';
 
 import AuctionHouse from '../assets/projects/auctionhouse.jpg';
 import Shops from '../assets/projects/shops.jpg';
@@ -38,6 +39,7 @@ export {
     GithubUserSearch,
     AnilistAccountCreation,
     CovidTracker,
+    Flickr,
     ReatOrderCart,
     ReactTodo,
     AuctionHouse,

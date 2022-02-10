@@ -12,6 +12,7 @@ import {
     Vouchers,
     CosmicVaults,
     CovidTracker,
+    Flickr
 } from './images';
 
 const projects = [
@@ -46,6 +47,21 @@ const projects = [
             'disease.sh',
         ],
         image: CovidTracker
+    },
+    {
+        name: 'Flickr',
+        description: 'A recreation of the Flickr.com home and explore pages, not 100% identical, but the general layout is there.',
+        livePreview: 'https://kiran-flickr.surge.sh',
+        github: 'https://github.com/kiranhart/Flickr',
+        primaryLanguage: 'JavaScript',
+        type: 'Website',
+        builtWith: [
+            'React',
+            'React Router',
+            'Redux Saga & Toolkit',
+            'Flickr API',
+        ],
+        image: Flickr
     },
     {
         name: 'Todo List',
