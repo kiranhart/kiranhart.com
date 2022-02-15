@@ -44,7 +44,8 @@
         "error",
         "single",
         {
-          "allowTemplateLiterals": true
+          "allowTemplateLiterals": true,
+          "avoidEscape": true
         }
       ],
       "comma-dangle": "off",

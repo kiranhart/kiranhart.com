@@ -6,6 +6,7 @@ import ReatOrderCart from '../assets/projects/react-order-cart.png';
 import ReactTodo from '../assets/projects/react-todo.png';
 import CovidTracker from '../assets/projects/covidtracker.png';
 import Flickr from '../assets/projects/flickr.png';
+import NotesApp from '../assets/projects/notesapp.png';
 
 import AuctionHouse from '../assets/projects/auctionhouse.jpg';
 import Shops from '../assets/projects/shops.jpg';
@@ -13,7 +14,6 @@ import Markets from '../assets/projects/markets.jpg';
 import Skulls from '../assets/projects/skulls.jpg';
 import Vouchers from '../assets/projects/vouchers.jpg';
 import CosmicVaults from '../assets/projects/cosmicvaults.jpg';
-
 
 import htmlIcon from '../assets/icon/html5.svg';
 import cssIcon from '../assets/icon/css3.svg';
@@ -32,7 +32,6 @@ import reduxIcon from '../assets/icon/redux.svg';
 import tailwindIcon from '../assets/icon/tailwind-css-icon.svg';
 import typescriptIcon from '../assets/icon/typescript.svg';
 
-
 export {
     PortfolioImage,
     AnimeFillerListAPI,
@@ -40,6 +39,7 @@ export {
     AnilistAccountCreation,
     CovidTracker,
     Flickr,
+    NotesApp,
     ReatOrderCart,
     ReactTodo,
     AuctionHouse,
@@ -62,5 +62,5 @@ export {
     reactIcon,
     reduxIcon,
     tailwindIcon,
-    typescriptIcon
+    typescriptIcon,
 };

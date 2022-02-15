@@ -12,7 +12,8 @@ import {
     Vouchers,
     CosmicVaults,
     CovidTracker,
-    Flickr
+    NotesApp,
+    Flickr,
 } from './images';
 
 const projects = [
@@ -23,13 +24,18 @@ const projects = [
         github: 'https://github.com/kiranhart/kiranhart.com',
         primaryLanguage: 'JavaScript',
         type: 'Website',
-        builtWith: [
-            'React',
-            'Styled Components',
-            'React Router',
-            'Redux'
-        ],
-        image: PortfolioImage
+        builtWith: ['React', 'Styled Components', 'React Router', 'Redux'],
+        image: PortfolioImage,
+    },
+    {
+        name: 'Notes',
+        description: 'A web app to keep track of your notes. Uses custom REST API with JWT authentication.',
+        livePreview: 'https://kiran-notes.surge.sh/',
+        github: 'https://github.com/kiranhart/Notes',
+        primaryLanguage: 'JavaScript',
+        type: 'Website',
+        builtWith: ['React', 'React Router', 'Redux', 'Redux Thunk', 'NodeJS', 'ExpressJS', 'JWT', 'PrismaJS', 'MySQL'],
+        image: NotesApp,
     },
     {
         name: 'Covid Tracker',
@@ -38,15 +44,8 @@ const projects = [
         github: 'https://github.com/kiranhart/covid-tracker',
         primaryLanguage: 'JavaScript',
         type: 'Website',
-        builtWith: [
-            'React',
-            'React Router',
-            'Redux',
-            'Redux Saga & Toolkit',
-            'Styled Components',
-            'disease.sh',
-        ],
-        image: CovidTracker
+        builtWith: ['React', 'React Router', 'Redux', 'Redux Saga & Toolkit', 'Styled Components', 'disease.sh'],
+        image: CovidTracker,
     },
     {
         name: 'Flickr',
@@ -55,13 +54,8 @@ const projects = [
         github: 'https://github.com/kiranhart/Flickr',
         primaryLanguage: 'JavaScript',
         type: 'Website',
-        builtWith: [
-            'React',
-            'React Router',
-            'Redux Saga & Toolkit',
-            'Flickr API',
-        ],
-        image: Flickr
+        builtWith: ['React', 'React Router', 'Redux Saga & Toolkit', 'Flickr API'],
+        image: Flickr,
     },
     {
         name: 'Todo List',
@@ -70,12 +64,8 @@ const projects = [
         github: 'https://github.com/kiranhart/react-todo',
         primaryLanguage: 'JavaScript',
         type: 'Website',
-        builtWith: [
-            'React',
-            'Styled Components',
-            'Redux'
-        ],
-        image: ReactTodo
+        builtWith: ['React', 'Styled Components', 'Redux'],
+        image: ReactTodo,
     },
     {
         name: 'Mock Order Cart',
@@ -84,12 +74,8 @@ const projects = [
         github: 'https://github.com/kiranhart/react-order-cart',
         primaryLanguage: 'JavaScript',
         type: 'Website',
-        builtWith: [
-            'React',
-            'Context API',
-            'CSS Modules'
-        ],
-        image: ReatOrderCart
+        builtWith: ['React', 'Context API', 'CSS Modules'],
+        image: ReatOrderCart,
     },
     {
         name: 'Anime Filler List API',
@@ -98,13 +84,8 @@ const projects = [
         github: 'https://github.com/kiranhart/Anime-Filler-List-API',
         primaryLanguage: 'JavaScript',
         type: 'Website',
-        builtWith: [
-            'ExpressJS',
-            'Morgan',
-            'Helmet',
-            'Cors'
-        ],
-        image: AnimeFillerListAPI
+        builtWith: ['ExpressJS', 'Morgan', 'Helmet', 'Cors'],
+        image: AnimeFillerListAPI,
     },
     {
         name: 'Github User Search',
@@ -113,12 +94,8 @@ const projects = [
         github: 'https://github.com/kiranhart/Github-User-Search',
         primaryLanguage: 'JavaScript',
         type: 'Website',
-        builtWith: [
-            'React',
-            'TailwindCSS',
-            'Custom Hooks'
-        ],
-        image: GithubUserSearch
+        builtWith: ['React', 'TailwindCSS', 'Custom Hooks'],
+        image: GithubUserSearch,
     },
     {
         name: 'Anilist Account Creation',
@@ -127,13 +104,8 @@ const projects = [
         github: 'https://github.com/kiranhart/Anilist-Account-Creation-Check',
         primaryLanguage: 'JavaScript',
         type: 'Website',
-        builtWith: [
-            'HTML',
-            'JavaScript',
-            'CSS',
-            'Fetch'
-        ],
-        image: AnilistAccountCreation
+        builtWith: ['HTML', 'JavaScript', 'CSS', 'Fetch'],
+        image: AnilistAccountCreation,
     },
     {
         name: 'Auction House',
@@ -143,17 +115,17 @@ const projects = [
         primaryLanguage: 'Java',
         type: 'Plugin',
         bStats: 6806,
-        image: AuctionHouse
+        image: AuctionHouse,
     },
     {
         name: 'Shops',
-        description: 'Ever wanted to create categorized server shops, well you\'ve found that plugin.',
+        description: "Ever wanted to create categorized server shops, well you've found that plugin.",
         livePreview: 'https://www.spigotmc.org/resources/shops-the-ultimate-server-shop.75600/',
         github: 'https://github.com/tweetzy/shops',
         primaryLanguage: 'Java',
         type: 'Plugin',
         bStats: 6807,
-        image: Shops
+        image: Shops,
     },
     {
         name: 'Markets',
@@ -163,7 +135,7 @@ const projects = [
         primaryLanguage: 'Java',
         type: 'Plugin',
         bStats: 7689,
-        image: Markets
+        image: Markets,
     },
     {
         name: 'Vouchers',
@@ -173,7 +145,7 @@ const projects = [
         primaryLanguage: 'Java',
         type: 'Plugin',
         bStats: 10530,
-        image: Vouchers
+        image: Vouchers,
     },
     {
         name: 'Skulls',
@@ -183,7 +155,7 @@ const projects = [
         primaryLanguage: 'Java',
         type: 'Plugin',
         bStats: 10616,
-        image: Skulls
+        image: Skulls,
     },
     {
         name: 'Cosmic Vaults',
@@ -193,8 +165,8 @@ const projects = [
         primaryLanguage: 'Java',
         type: 'Plugin',
         bStats: 6789,
-        image: CosmicVaults
-    }
+        image: CosmicVaults,
+    },
 ];
 
 export default projects;
