@@ -8,11 +8,7 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-redux": "^7.2.6",
-    "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
-    "redux": "^4.1.2",
-    "styled-components": "^5.3.3",
     "web-vitals": "^2.1.4"
   },
   "scripts": {
@@ -20,89 +16,6 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "env": {
-      "node": true,
-      "browser": true
-    },
-    "globals": {
-      "document": true
-    },
-    "extends": [
-      "eslint:recommended",
-      "plugin:react/recommended",
-      "react-app",
-      "react-app/jest"
-    ],
-    "parserOptions": {
-      "ecmaVersion": 2018,
-      "sourceType": "module"
-    },
-    "rules": {
-      "quotes": [
-        "error",
-        "single",
-        {
-          "allowTemplateLiterals": true,
-          "avoidEscape": true
-        }
-      ],
-      "comma-dangle": "off",
-      "no-unused-vars": "warn",
-      "no-extra-semi": "error",
-      "array-bracket-spacing": [
-        "warn",
-        "never"
-      ],
-      "capitalized-comments": "off",
-      "comma-spacing": [
-        "error",
-        {
-          "before": false,
-          "after": true
-        }
-      ],
-      "indent": [
-        "error",
-        4
-      ],
-      "semi": [
-        "error",
-        "always"
-      ],
-      "spaced-comment": [
-        "error",
-        "always"
-      ],
-      "arrow-body-style": "off",
-      "arrow-parens": [
-        "error",
-        "always"
-      ],
-      "arrow-spacing": [
-        "error",
-        {
-          "before": true,
-          "after": true
-        }
-      ],
-      "no-duplicate-imports": [
-        "error",
-        {
-          "includeExports": true
-        }
-      ],
-      "no-var": "error",
-      "prefer-arrow-callback": "error",
-      "prefer-const": "error",
-      "prefer-destructuring": "off",
-      "sort-imports": "off",
-      "no-case-declarations": "off",
-      "react/react-in-jsx-scope": "off",
-      "react/prop-types": "off",
-      "react/no-unescaped-entities": "off"
-    }
   },
   "browserslist": {
     "production": [
@@ -115,5 +28,11 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.2",
+    "postcss": "^8.4.6",
+    "prettier-plugin-tailwindcss": "^0.1.7",
+    "tailwindcss": "^3.0.22"
   }
 }
