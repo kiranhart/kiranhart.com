@@ -1,0 +1,19 @@
+---
+import MainLayout from '../layouts/MainLayout.astro';
+
+const FIRST_NAME: string[] = ['K', 'I', 'R', 'A', 'N'];
+const LAST_NAME: string[] = ['H', 'A', 'R', 'T'];
+
+const FULL_NAME: string[] = [...FIRST_NAME, '•', ...LAST_NAME];
+---
+
+<MainLayout>
+    <div class='flex w-full h-full items-center justify-center p-12'>
+        <div class='font-black uppercase tracking-wide text-4xl items-center flex flex-col gap-2 text-gray-900'>
+            <div class='flex'>
+                {FULL_NAME.map((char) => <div class='grid place-items-center'>{char}</div>)}
+            </div>
+            <h4 class='font-bold uppercase tracking-wide text-2xl gap-2 -mt-2 text-rose-500'>Web Developer</h4>
+        </div>
+    </div>
+</MainLayout>
