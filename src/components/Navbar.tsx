@@ -29,7 +29,7 @@ const Navbar = () => {
                 {NAVBAR_ELEMENTS.map((item, index) => {
                     return (
                         <NavBarItem
-                            key={index + item}
+                            key={item}
                             content={item.name}
                             focused={pathName == item.path}
                             path={item.path}
