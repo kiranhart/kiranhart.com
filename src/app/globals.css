@@ -120,3 +120,21 @@
     @apply bg-background text-foreground;
   }
 }
+
+
+.plugin-card {
+    width: 100%;         /* Set your desired width */
+    height: 100%;        /* Set your desired height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;     /* Ensures nothing spills out */
+
+}
+
+.plugin-card img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;    /* Ensures the image covers the container */
+    display: block;
+}
