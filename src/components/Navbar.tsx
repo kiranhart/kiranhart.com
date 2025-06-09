@@ -8,7 +8,7 @@ let NAVBAR_ELEMENTS = [
     { name: 'About', path: '/' },
     { name: 'Projects', path: '/projects' },
     { name: 'Resume', path: '/resume' },
-    { name: 'Media', path: '/media' },
+    // { name: 'Media', path: '/media' },
 ];
 
 const Navbar = () => {
@@ -37,10 +37,6 @@ const Navbar = () => {
                     );
                 })}
             </ul>
-
-            <div className='flex-col items-end hidden md:flex'>
-                <Moon />
-            </div>
         </nav>
     );
 };
